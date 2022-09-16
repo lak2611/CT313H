@@ -14,3 +14,14 @@ exports.update = (req, res) => {
     return res.send({message: 'update handler'});
 }
 
+exports.delete = (req,res) => {
+    return res.send({message: 'delete handler'});
+}
+
+exports.deleteAll = (req, res) => {
+    return res.send({message: 'deleteAll handler'});
+}
+
+exports.findAllFavorite = (req,res) => {
+    return res.send({message: 'findAllFavorite handler'});
+}
